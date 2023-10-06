@@ -1,0 +1,12 @@
+appId: pl.martinsulikowski.passwordgenerator
+productName: Simple Password Generator
+copyright: Copyright © 2023 Martin Sulikowski
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
