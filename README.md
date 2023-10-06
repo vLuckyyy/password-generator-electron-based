@@ -1,38 +1,18 @@
-<p align="center"><img src="https://i.imgur.com/a9QWW0v.png"></p>
+![image](showcase.png)
 
-## Usage
+Just simple, password generator, using Nextron (Electron + Next.js).
 
-### Create an App
-
-```
-# with npx
-$ npx create-nextron-app my-app --example with-tailwindcss
-
-# with yarn
-$ yarn create nextron-app my-app --example with-tailwindcss
-
-# with pnpm
-$ pnpm dlx create-nextron-app my-app --example with-tailwindcss
+## Getting Started
+To dev mode:
+```bash
+npm dev
 ```
 
-### Install Dependencies
-
-```
-$ cd my-app
-
-# using yarn or npm
-$ yarn (or `npm install`)
-
-# using pnpm
-$ pnpm install --shamefully-hoist
-```
-
-### Use it
-
-```
-# development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
-
-# production build
-$ yarn build (or `npm run build` or `pnpm run build`)
+To build executables:
+```bash
+npm run build:mac
+npm run build:mac:universal
+npm run build:linux
+npm run build:win32
+npm run build:win64
 ```
